@@ -8,7 +8,7 @@ body{
 
 form{
     padding: 2rem;
-    background-color: red;
+    background-color: rgb(198, 218, 248);
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -23,6 +23,7 @@ input{
 }
 
 #submit{
+    margin: 2rem;
     padding: 0.5rem 2rem;
     border-radius: 1rem;
 }
