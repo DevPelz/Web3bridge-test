@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+input.invalid {
+    border-color: red;
+}
+
+#nameError {
+    display: none;
+    font-size: 0.8em;
+}
+  
+#nameError.visible {
+      display: block;
+}
+  
+#lastnameError {
+    display: none;
+    font-size: 0.8em;
+}
+  
+#lastnameError.visible {
+    display: block;
+}
+
+#emailError {
+  display: none;
+  font-size: 0.8em;
+}
+
+#emailError.visible {
+    display: block;
+}
+
+#emailValidError {
+    display: none;
+    font-size: 0.8em;
+    }
+  
+#emailValidError.visible {
+      display: block;
+} 
+  
