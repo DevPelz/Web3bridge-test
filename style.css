@@ -1,6 +1,30 @@
 body{
-    margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif; ;
+}
+
+form{
+    padding: 2rem;
+    background-color: red;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+#submit{
+    max-width: 50%;
+    align-items: center;
 }
 
 input.invalid {
