@@ -39,15 +39,6 @@ input.invalid {
 #nameError.visible {
       display: block;
 }
-  
-#lastnameError {
-    display: none;
-    font-size: 0.8em;
-}
-  
-#lastnameError.visible {
-    display: block;
-}
 
 #emailError {
   display: none;
@@ -66,4 +57,25 @@ input.invalid {
 #emailValidError.visible {
       display: block;
 } 
+
+#passwordError {
+    display: none;
+    font-size: 0.8em;
+}
   
+#passwordError.visible {
+      display: block;
+}
+  
+ #confirmpasswordError {
+    display: none;
+    font-size: 0.8em;
+}
+  
+#confirmpasswordError.visible {
+      display: block;
+}
+  
+#confirmpasswordError.invisible {
+      display: hidden;
+}
