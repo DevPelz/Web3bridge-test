@@ -24,7 +24,41 @@
              Please enter Last Name
            </span>
           </div>
-         
+
+        <div>
+            <label for="email"> Email Address* </label>
+           <input type="text" name="email" id="email" />
+           
+             <span role="alert" id="emailError" aria-hidden="true">
+             Please enter Email Addresss
+         </span>
+
+         <span role="alert" id="emailValidError" aria-hidden="true">
+            Please enter Valid Email Addresss
+          </span>
+          
+         </div>
+        
+        <div>
+            <label for="password"> Password* </label>
+            <input type="password" name="password" id="password">
+
+            <span role="alert" id="passwordError" aria-hidden="true">
+                Please enter a unique password
+            </span>
+        </div>
+
+        <div>
+            <label for="confirmpassword"> Confirm Password</label>
+            <input type="password" name="confirmpassword" id="confirmpassword">
+            
+            <span role="alert" id="matchpassword" aria-hidden="true">
+                password does not match
+            </span>            
+        </div>
+
+        <button id="submit">Submit</button>         
+    </form>
 
     <script src="index.js"></script>
 </body>
