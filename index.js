@@ -75,5 +75,13 @@ function validate(e) {
 
 
   // email = emailInput.value.trim();
+  
+  
+  alert("Form Submitted Successfully")
+  fullnameField.value = "";
+  emailField.value = "";
+  passwordField.value = "";
+  confirmpasswordField.value = "";
+
   return valid;
 }
